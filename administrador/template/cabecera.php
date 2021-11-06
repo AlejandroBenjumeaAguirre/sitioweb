@@ -14,7 +14,7 @@
     <header>
         <?php $url="http://".$_SERVER['HTTP_HOST']."/sitioweb" ?>
 
-        <nav class="navbar navbar-expand navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
             <div class="nav navbar-nav">
                 <a class="nav-item nav-link active" href="<?php echo $url."/administrador/inicio.php" ?>">Administrador<span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="<?php echo $url."/administrador/inicio.php" ?>">Inicio</a>
