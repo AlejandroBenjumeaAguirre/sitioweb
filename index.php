@@ -1,22 +1,20 @@
 <?php include("./template/cabecera.php");?>
 
 
-    <main class="container">
-            <section class="row">
+    
 
-                <div class="jumbotron">
-                    <h1 class="display-3">Inicio</h1>
-                    <p class="lead">Bienevenido a nuestra pagina web</p>
+                <div class="jumbotron text-center">
+                    <h1 class="display-3">Bienevenido a nuestra pagina web</h1>
+                    <p class="lead">Aquí encontraras libros interezantes de programación.</p>
                     <hr class="my-2">
-                    <p>More info</p>
+                    <img width="400" src="./img/libro.jpg" class="img-thumbnail rounded mx-auto d-block">
+                    <p>Mas información</p>
                     <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+                        <a class="btn btn-primary btn-lg" href="productos.php" role="button">Ver libros</a>
                     </p>
                 </div>
 
             </section>
         </section>
-
-    </main>
 
 <?php include("./template/pie.php"); ?>
